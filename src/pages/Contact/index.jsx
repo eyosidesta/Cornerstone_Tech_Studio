@@ -170,7 +170,7 @@ const Contact = () => {
                             <div className="info-card glass">
                                 <h3>Prefer to email directly?</h3>
                                 <p>
-                                    Reach out to us at <a href="mailto:hello@cornerstonetech.studio">hello@cornerstonetech.studio</a>
+                                    Reach out to us at <a href="mailto:desta.eyosias@gmail.com">desta.eyosias@gmail.com</a>
                                 </p>
                             </div>
 
