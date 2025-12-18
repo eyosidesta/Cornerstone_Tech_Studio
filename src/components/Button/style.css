@@ -1,0 +1,100 @@
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-family: var(--font-primary);
+    font-weight: 600;
+    border: none;
+    border-radius: var(--radius-full);
+    cursor: pointer;
+    transition: var(--transition-smooth);
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+/* Sizes */
+.btn-small {
+    padding: 0.5rem 1.25rem;
+    font-size: var(--text-sm);
+}
+
+.btn-medium {
+    padding: 0.875rem 2rem;
+    font-size: var(--text-base);
+}
+
+.btn-large {
+    padding: 1rem 2.5rem;
+    font-size: var(--text-lg);
+}
+
+/* Primary variant */
+.btn-primary {
+    background: var(--accent-gradient);
+    color: var(--bg-dark);
+    box-shadow: 0 4px 20px rgba(100, 255, 218, 0.3);
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 30px rgba(100, 255, 218, 0.4);
+    color: var(--bg-dark);
+}
+
+.btn-primary:active {
+    transform: translateY(0);
+}
+
+/* Secondary variant - Glass effect */
+.btn-secondary {
+    background: var(--glass-bg);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var(--glass-border);
+    color: var(--text-primary);
+}
+
+.btn-secondary:hover {
+    background: var(--glass-bg-hover);
+    border-color: var(--text-accent);
+    color: var(--text-accent);
+    transform: translateY(-2px);
+}
+
+/* Outline variant */
+.btn-outline {
+    background: transparent;
+    border: 2px solid var(--text-accent);
+    color: var(--text-accent);
+}
+
+.btn-outline:hover {
+    background: var(--text-accent);
+    color: var(--bg-dark);
+    transform: translateY(-2px);
+}
+
+/* Ghost variant */
+.btn-ghost {
+    background: transparent;
+    color: var(--text-secondary);
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.btn-ghost:hover {
+    color: var(--text-accent);
+}
+
+/* Full width */
+.btn-full {
+    width: 100%;
+}
+
+/* Disabled state */
+.btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    transform: none !important;
+}

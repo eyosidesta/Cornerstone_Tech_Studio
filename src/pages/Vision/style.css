@@ -1,0 +1,215 @@
+/* Page Hero */
+.vision-page .page-hero {
+    padding: calc(80px + var(--spacing-xl)) 0 var(--spacing-lg);
+    text-align: center;
+}
+
+.page-title {
+    font-size: var(--text-5xl);
+    margin-bottom: var(--spacing-sm);
+    background: var(--accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.page-subtitle {
+    font-size: var(--text-lg);
+    color: var(--text-secondary);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Timeline Section */
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient(to bottom,
+            var(--glass-border) 0%,
+            var(--text-accent) 50%,
+            var(--glass-border) 100%);
+}
+
+.timeline-item {
+    position: relative;
+    padding-left: 60px;
+    margin-bottom: var(--spacing-lg);
+}
+
+.timeline-item:last-child {
+    margin-bottom: 0;
+}
+
+.timeline-marker {
+    position: absolute;
+    left: 12px;
+    top: 24px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: var(--glass-bg);
+    border: 2px solid var(--glass-border);
+}
+
+.timeline-marker.active {
+    background: var(--text-accent);
+    border-color: var(--text-accent);
+    box-shadow: 0 0 20px rgba(100, 255, 218, 0.5);
+}
+
+.timeline-marker.future {
+    background: transparent;
+    border-style: dashed;
+}
+
+.timeline-content {
+    padding: var(--spacing-md);
+}
+
+.timeline-label {
+    display: inline-block;
+    font-size: var(--text-xs);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--text-accent);
+    margin-bottom: var(--spacing-xs);
+}
+
+.timeline-content h2 {
+    font-size: var(--text-2xl);
+    margin-bottom: var(--spacing-sm);
+}
+
+.timeline-content p {
+    font-size: var(--text-base);
+    line-height: 1.8;
+    color: var(--text-secondary);
+}
+
+/* Building List */
+.building-list {
+    list-style: none;
+    padding: 0;
+    margin: var(--spacing-sm) 0 0;
+}
+
+.building-list li {
+    position: relative;
+    padding-left: 1.5rem;
+    margin-bottom: 0.75rem;
+    color: var(--text-secondary);
+}
+
+.building-list li::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    color: var(--text-accent);
+}
+
+/* Future Vision */
+.future-vision {
+    margin-top: var(--spacing-md);
+}
+
+.vision-item {
+    display: flex;
+    gap: var(--spacing-sm);
+    margin-bottom: var(--spacing-md);
+}
+
+.vision-item:last-child {
+    margin-bottom: 0;
+}
+
+.vision-icon {
+    font-size: 2rem;
+    flex-shrink: 0;
+}
+
+.vision-item h3 {
+    font-size: var(--text-lg);
+    margin-bottom: 0.25rem;
+    color: var(--text-primary);
+}
+
+.vision-item p {
+    margin: 0;
+    font-size: var(--text-sm);
+}
+
+/* Commitment Section */
+.commitment-content {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: var(--spacing-lg);
+    text-align: center;
+}
+
+.commitment-content h2 {
+    font-size: var(--text-3xl);
+    margin-bottom: var(--spacing-md);
+}
+
+.commitment-content p {
+    font-size: var(--text-lg);
+    line-height: 1.8;
+}
+
+.commitment-content p:last-child {
+    color: var(--text-accent);
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+/* CTA Section */
+.cta-section h2 {
+    font-size: var(--text-3xl);
+    margin-bottom: var(--spacing-sm);
+}
+
+.cta-section p {
+    font-size: var(--text-lg);
+    color: var(--text-secondary);
+    margin-bottom: var(--spacing-md);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .page-title {
+        font-size: var(--text-4xl);
+    }
+
+    .timeline::before {
+        left: 10px;
+    }
+
+    .timeline-item {
+        padding-left: 40px;
+    }
+
+    .timeline-marker {
+        left: 2px;
+        width: 16px;
+        height: 16px;
+    }
+
+    .timeline-content {
+        padding: var(--spacing-sm);
+    }
+
+    .timeline-content h2 {
+        font-size: var(--text-xl);
+    }
+}

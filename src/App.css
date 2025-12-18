@@ -1,0 +1,13 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Smooth page transitions */
+main {
+  flex: 1;
+  animation: fadeIn 0.4s ease-out;
+}
+
+/* Scroll to top on page change handled by React Router */
