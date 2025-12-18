@@ -14,7 +14,7 @@ export const projects = [
         shortDescription: 'Community church platform with bilingual sermon support and ministry management',
         thumbnail: geecWelcome,
         images: [geecWelcome, geecHeroServices, geecContact, geecSermons, geecFooter],
-        liveUrl: 'https://geecvancouver.org',
+        liveUrl: 'https://geecvancouver.ca',
         features: [
             'Bilingual sermon library (English & Amharic)',
             'Event management system',
@@ -27,7 +27,7 @@ export const projects = [
             name: 'Church Leadership Team',
             organization: 'GEEC Vancouver'
         },
-        year: '2024'
+        year: '2025'
     },
     {
         id: 'coming-soon-1',
