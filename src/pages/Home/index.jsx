@@ -131,7 +131,7 @@ const Home = () => {
                         <div className="evolving-text">
                             <h2>Always Building. Always Improving.</h2>
                             <p>
-                                This website—and our business—is continuously evolving. We believe in
+                                This website and our business are continuously evolving. We believe in
                                 transparency, growth, and building in the open. Every project teaches us
                                 something new, and we bring those lessons to every client we serve.
                             </p>

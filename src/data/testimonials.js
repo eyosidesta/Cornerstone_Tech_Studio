@@ -9,22 +9,22 @@ export const testimonials = [
         role: 'Client',
         image: null
     },
-    {
-        id: 2,
-        quote: 'Working with Cornerstone was a great experience. They took the time to understand our needs and delivered a solution that exceeded our expectations.',
-        name: 'Future Client',
-        organization: 'Business Name',
-        role: 'Founder',
-        image: null
-    },
-    {
-        id: 3,
-        quote: 'The attention to detail and commitment to quality sets Cornerstone Tech Studio apart. They are true partners in building digital solutions.',
-        name: 'Community Leader',
-        organization: 'Organization Name',
-        role: 'Director',
-        image: null
-    }
+    // {
+    //     id: 2,
+    //     quote: 'Working with Cornerstone was a great experience. They took the time to understand our needs and delivered a solution that exceeded our expectations.',
+    //     name: 'Future Client',
+    //     organization: 'Business Name',
+    //     role: 'Founder',
+    //     image: null
+    // },
+    // {
+    //     id: 3,
+    //     quote: 'The attention to detail and commitment to quality sets Cornerstone Tech Studio apart. They are true partners in building digital solutions.',
+    //     name: 'Community Leader',
+    //     organization: 'Organization Name',
+    //     role: 'Director',
+    //     image: null
+    // }
 ];
 
 export const getFeaturedTestimonials = () => {

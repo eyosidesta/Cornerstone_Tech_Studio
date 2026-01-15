@@ -11,7 +11,7 @@ const Services = () => {
                     <h1 className="page-title">How We Help</h1>
                     <p className="page-subtitle">
                         We build digital solutions that solve real business problems.
-                        No jargon, no unnecessary complexity—just technology that works for you.
+                        No jargon, no unnecessary complexity, just technology that works for you.
                     </p>
                 </div>
             </section>
